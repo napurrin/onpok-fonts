@@ -84,7 +84,7 @@
 
 ## 만든 사람
 
-만든 사람: **napurrin** · [github.com/napurrin](https://github.com/napurrin) — 응급의료 현장에서 일하며 배워가며 만든 공공 문서 도구입니다.
+만든 사람: **napurrin** · [github.com/napurrin](https://github.com/napurrin) — 응급의료 현장에서 일하고 배워 가며 만든 공공 문서 도구입니다.
 
 만드는 도구(이름 바꾸기·글자 채우기·검사 도구)는 비공개입니다. 이 저장소에는 글꼴과 설명서, 검사 결과만 있습니다.
 
