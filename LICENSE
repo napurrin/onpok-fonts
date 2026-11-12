@@ -4,14 +4,6 @@ Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols) â
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/math) â€” Noto Sans Math (some mathematical symbols).
 Modifications Copyright 2026 The OnPok Project Authors.
 
-This license applies to the OnPok fonts based on Noto Sans KR and Noto Serif KR
-(see LICENSES/README.md for the list). The OnPok fonts do not use the Reserved Font Name 'Source'.
-It also applies to the OnPok fonts based on Baekmuk (Gulim, GulimChe, Dotum, DotumChe, Batang, BatangChe),
-because they contain some glyphs taken from Noto Sans KR / Noto Serif KR. For those fonts the Baekmuk
-copyright and permission notice (Baekmuk-COPYRIGHT.txt) is kept as well.
-Some symbols in the OnPok fonts are taken from Noto Sans Symbols, Noto Sans Symbols 2 and Noto Sans Math,
-and one Hanja (U+9699) from Noto Sans CJK KR; they are licensed under this license too.
-
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 https://openfontlicense.org
