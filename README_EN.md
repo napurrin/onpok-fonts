@@ -2,18 +2,18 @@
 
 **Fonts that match the widths of the characters listed in a width table to common Korean office fonts, so that line breaks come out the same in the same document.**
 
-Most Korean office documents (HWP/HWPX) use Hancom or Microsoft fonts, which cannot be redistributed. Viewers without those fonts substitute other fonts, so character widths differ and lines break in different places.
+Most Korean office documents (HWP/HWPX) use Hancom or Microsoft fonts, most of which cannot be freely redistributed (even fonts that are free to download have their own distribution terms). Viewers without those fonts substitute other fonts, so character widths differ and lines break in different places.
 
 OnPok fonts are based on free fonts (Noto, Baekmuk). For every character in the width table, the advance width is set to the width of the original font.
 - The glyph shapes follow the base fonts, so they look different from the originals.
 - Weights were chosen so that stroke density is close to PDFs saved by Hancom Office. Because the shapes differ, the weight is not identical.
 
 The table in `README.md` lists which OnPok font has its widths matched to which original font.
-- Font names in that table (Malgun Gothic, Human-, Hanyang-, HY-, HCR- …) are trademarks of their owners.
+- Font names in that table (Malgun Gothic, Gulim, Dotum, Batang and their -Che forms, Human-, Hanyang-, HY-, HCR- …) are trademarks of their owners. In OnPok family names, Gulim, Dotum, Batang, Myeongjo and Gothic are used as generic Korean typeface-style words.
 - OnPok is not affiliated with them. The names are used only to describe width compatibility.
 
 **Width coverage**
-- Width numbers are taken from the width tables of rhwp (MIT, Copyright (c) 2025-2026 Edward Kim). No glyph shapes are taken from rhwp.
+- Width numbers are taken from the width tables of [rhwp](https://github.com/edwardkim/rhwp) (MIT, Copyright (c) 2025-2026 Edward Kim). No glyph shapes are taken from rhwp. These fonts exist thanks to rhwp publishing its width tables.
 - About 11,500 characters per font are in the width table (all 11,172 Hangul syllables, Latin, digits, punctuation, some Hanja and symbols). For every one of them that the font contains, the advance width equals the table width; the number of mismatches is 0 in every font (`CHECK_GLYPHS.md`).
 - Characters outside the table keep the base font's width.
 - A few rare characters in the table are not in the fonts yet, because neither the base fonts nor Noto have them (2 in the Baekmuk-based fonts, 33 rare punctuation and invisible characters in Mango Batang and Coco Dotum). They are drawn with another font.
@@ -33,7 +33,7 @@ The build tools (renaming, glyph filling, checks) are not public. This repositor
 - All OnPok fonts: SIL Open Font License 1.1.
 - Fonts based on Baekmuk (Gulim, Dotum, Batang families) also contain glyphs taken from Noto (dashes, circled and parenthesized numbers 16-20, currency signs, accented Latin letters and others), so they are distributed under OFL 1.1 as a whole while also following the Baekmuk license. Keep the copyright and permission notices, and include this acknowledgement: "Baekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk Headline are registered trademarks owned by Kim Jeong-Hwan."
 - Some symbols come from Noto Sans Symbols, Noto Sans Symbols 2 and Noto Sans Math, and one Hanja (隙) from Noto Sans CJK KR — all OFL 1.1.
-- Width numbers: rhwp width tables (MIT, Copyright (c) 2025-2026 Edward Kim) — `LICENSES/rhwp-MIT.txt`. No glyph shapes are taken from rhwp.
+- Width numbers: [rhwp](https://github.com/edwardkim/rhwp) width tables (MIT, Copyright (c) 2025-2026 Edward Kim) — `LICENSES/rhwp-MIT.txt`. No glyph shapes are taken from rhwp.
 - See `LICENSES/` for details.
 
 Modifications Copyright 2026 The OnPok Project Authors.
